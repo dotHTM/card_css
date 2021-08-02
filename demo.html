@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cards.css">
+  <title>Playing Card CSS</title>
+</head>
+
+<body>
+  <h1>Playing Card CSS</h1>
+  <p>Here are some cards in the small size:</p>
+  <div class="small">
+    <i class="spades-1">s1</i>
+    <i class="hearts-2">h2</i>
+    <i class="clubs-3">c3</i>
+    <i class="diamonds-4">d4</i>
+    <i class="spades-5">s5</i>
+    <i class="hearts-6">h6</i>
+    <i class="clubs-7">c7</i>
+    <br>
+    <i class="hearts-1">h1</i>
+    <i class="clubs-2">c2</i>
+    <i class="diamonds-3">d3</i>
+    <i class="spades-4">s4</i>
+    <i class="hearts-5">h5</i>
+    <i class="clubs-6">c6</i>
+    <br>
+    <i class="clubs-1">c1</i>
+    <i class="diamonds-2">d2</i>
+    <i class="spades-3">s3</i>
+    <i class="hearts-4">h4</i>
+    <i class="clubs-5">c5</i>
+    <br>
+    <i class="diamonds-1">d1</i>
+    <i class="spades-2">s2</i>
+    <i class="hearts-3">h3</i>
+    <i class="clubs-4">c4</i>
+  </div>
+  <p>Here is a hand of medium sized cards</p>
+  <div class="medium hand">
+    <i class="c04">c04</i>
+    <i class="d03">d03</i>
+    <i class="s02">s02</i>
+    <i class="h01">h01</i>
+    <i class="h05">h05</i>
+  </div>
+  <p>Here is a hand of two large sized cards</p>
+  <div class="large hand">
+    <i class="queen-of-hearts">queen-of-hearts</i>
+    <i class="ace-of-spades">ace-of-spades</i>
+  </div>
+  <h1 id="details">Details</h1>
+  <p>Cards blocks are created by creating a div with class &ldquo;card<size>, where size is either "small&rdquo;, &ldquo;medium&rdquo;, or &ldquo;large&rdquo;, and optional &ldquo;hand&rdquo; class then adding i-tags with a card synonym class."</p>
+  <p>Example:</p>
+  <pre><code class="html">&lt;div class=&quot;large hand&quot;&gt;
+  &lt;i class=&quot;ace-of-spades&quot;&gt;ace-of-spades&lt;/i&gt;
+  &lt;i class=&quot;ten-of-spades&quot;&gt;ten-of-spades&lt;/i&gt;
+&lt;/div&gt;</code></pre>
+  <p>Synonyms of card classes are available in these templates:</p>
+  <ul>
+    <li><code>&lt;cardName&gt;-of-&lt;suit&gt;</code></li>
+    <li><code>_&lt;cardNumber&gt;-of-&lt;suit&gt;</code></li>
+    <li><code>_&lt;cardNumber&gt;&lt;suit&gt;</code></li>
+    <li><code>&lt;suit&gt;-&lt;card&gt;</code></li>
+    <li><code>&lt;suit&gt;&lt;card&gt;</code></li>
+  </ul>
+  <p>The four standard suits are defined as plural, singular, and first-initial.</p>
+  <ul>
+    <li><code>hearts</code></li>
+    <li><code>spades</code></li>
+    <li><code>diamonds</code></li>
+    <li><code>clubs</code></li>
+  </ul>
+  <p>Cards are defined with numbers (leading zero or without), and alternate names.</p>
+  <ul>
+    <li><code>01</code>, <code>1</code>, <code>one</code>, <code>ace</code>, <code>a</code></li>
+    <li><code>02</code>, <code>2</code>, <code>two</code></li>
+    <li><code>03</code>, <code>3</code>, <code>three</code></li>
+    <li><code>04</code>, <code>4</code>, <code>four</code></li>
+    <li><code>05</code>, <code>5</code>, <code>five</code></li>
+    <li><code>06</code>, <code>6</code>, <code>six</code></li>
+    <li><code>07</code>, <code>7</code>, <code>seven</code></li>
+    <li><code>08</code>, <code>8</code>, <code>eight</code></li>
+    <li><code>09</code>, <code>9</code>, <code>nine</code></li>
+    <li><code>10</code>, <code>10</code>, <code>ten</code>, <code>x</code></li>
+    <li><code>11</code>, <code>11</code>, <code>jack</code>, <code>j</code></li>
+    <li><code>12</code>, <code>12</code>, <code>queen</code>, <code>q</code></li>
+    <li><code>13</code>, <code>13</code>, <code>king</code>, <code>k</code></li>
+  </ul>
+  <p>For example, the Ace of Spades has 38 synonyms!</p>
+</body>
+
+</html>
