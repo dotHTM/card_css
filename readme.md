@@ -1,5 +1,8 @@
 
-  <link rel="stylesheet" href="https://raw.githubusercontent.com/dotHTM/card_css/master/cards.css">
+
+
+<style scoped>@import url(https://raw.githubusercontent.com/dotHTM/card_css/master/cards.css); </style>
+
 
   <h1>Playing Card CSS</h1>
   <p>Here are some cards in the small size:</p>
