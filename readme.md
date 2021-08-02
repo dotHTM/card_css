@@ -1,13 +1,6 @@
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./cards.css">
-  <title>Playing Card CSS</title>
-</head>
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/dotHTM/card_css/master/cards.css">
 
-<body>
   <h1>Playing Card CSS</h1>
   <p>Here are some cards in the small size:</p>
   <div class="small">
@@ -89,6 +82,3 @@
     <li>13, 13, king, k</li>
   </ul>
   <p>For example, the Ace of Spades has 38 synonyms!</p>
-</body>
-
-</html>
