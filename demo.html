@@ -5,9 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="cards.css">
   <title>Playing Card CSS</title>
+  <style type="text/css">
+  body {
+    background: darkgreen;
+    color: white
+  }
+  </style>
 </head>
-
-<body style="background: darkgreen; color: white">
+<body>
   <h1>Playing Card CSS</h1>
   <p>Here are some cards in the small size:</p>
   <div class="small">
@@ -51,9 +56,7 @@
     <i class="ace-of-spades">ace-of-spades</i>
   </div>
   <h1 id="details">Details</h1>
-  
   <p>Find the repo for this demo <a href="https://github.com/dotHTM/card_css">on github</a>.</p>
-  
   <p>Cards blocks are created by creating a div with class &ldquo;card<size>, where size is either "small&rdquo;, &ldquo;medium&rdquo;, or &ldquo;large&rdquo;, and optional &ldquo;hand&rdquo; class then adding i-tags with a card synonym class."</p>
   <p>Example:</p>
   <pre><code class="html">&lt;div class=&quot;large hand&quot;&gt;
